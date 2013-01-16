@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Wallet Test Wallet</string>
+    <string name="hello_world">Please select a card for payment!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Test Wallet</string>
+
+</resources>

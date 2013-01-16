@@ -1,0 +1,52 @@
+webinos - Wallet Integration Version 2
+============================
+
+Content:
+--------
+  
+WalletTestShopping.apk
+  Test program (This is a Webinos-Simulator!) that invoke the single functions of the wallet shop which will be provided by the shop.
+
+WalletShopping.apk
+  Android implementation of a wallet shop; this shop triggers the Wallet for selection of the payment card.
+
+WalletTestWallet.apk
+  Test wallet with two cards for simulation successful / failed payment transactions in the shop.
+
+WalletShopping.jar
+  Library with an API for using the wallet shop in an Android implementation of the Webinos PZP.
+  The shop API has to be invoked from webinos to integrate the wallet. 
+  The WalletTestShopping code is an example for the usage of the API that resides in WalletShopping.jar.
+
+
+Folder WalletTestShopping
+  Android Eclipse projekt with source code of the test program "WalletTestShopping".
+  WalletTestShopping\src\de\dtag\tlabs\wallet\tests\shopping\WalletTestShoppingActivity.java shows, how to use the WalletShopping.jar library in a Webinos PZP.
+
+Folder WalletShopping
+  Android Eclipse projekt with source code of the test program "WalletShopping".
+
+Folder WalletShopping\doc
+  Javadoc for WalletShopping.jar 
+
+Folder WalletTestWallet
+  Android Eclipse projekt with source code of the test program "WalletTestWallet".
+  
+  
+First Test:
+-----------
+1. Install the three APKs on a phone with Android 2.3.3 or higher.
+2. Start WalletTestShopping.
+3. Use the buttons to check out the single functions of the shop. 
+   Notice the answers at the bottom of the display.
+   Push buttons:  
+     1a) -> opens shop
+     2)  -> adds a item to the basket
+     4)  -> requests payment
+         -> the Wallet opens
+            -> Select a card for payment. 
+               SUCCESS means, the shop accepts the card and signalizes an OK back to webinos. 
+               (FAIL generates in an error message to webinos).
+     5)  -> closes shop
+   This sequence results in a successful payment.
+
