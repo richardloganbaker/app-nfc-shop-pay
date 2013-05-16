@@ -85,16 +85,20 @@ div.clock {
     margin:0%;
 
     border-radius:50%;
-    background-image:url(clock.png);
+    background-image:url('../images/nfc_up_large.png');
     background-size: 100% 100%;
 
- 
     transform: translateZ(-40px);
     -webkit-transform: translateZ(-40px);
     -moz-transform: translateZ(-40px);
     -ms-transform: translateZ(-40px);
     -o-transform: translateZ(-40px);
  
+}
+
+div.clock:active
+{
+    background-image:url('../images/nfc_down_large.png');
 }
 
 div.top, div.right, div.bottom, div.left {

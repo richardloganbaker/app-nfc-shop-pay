@@ -7,7 +7,7 @@ div.t {
     height:60px;
     width:150px;
     border:0px;
-    background-image: url('t-systems.png');
+    background-image: url('../images/t-systems.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -22,7 +22,7 @@ div.a {
     height:60px;
     width:150px;
     border:0px;
-    background-image: url('AmbieSense.png');
+    background-image: url('../images/AmbieSense.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -37,28 +37,9 @@ div.w {
     height:60px;
     width:150px;
     border:0px;
-    background-image: url('webinos-logo-white.png');
+    background-image: url('../images/webinos-logo-white.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
     color: rgba(0, 0, 0, 0.0);
-}
-
-div.n {
-    position:absolute;
-    display: block;
-    bottom:0px;
-    right:165px;
-    height:60px;
-    width:60px;
-    border:0px;
-    background-image: url('nfc_up.png');
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.0);
-    background-size:100% 100%;
-    color: rgba(0, 0, 0, 0.0);
-}
-
-div.n:hover {
-    background-image: url('nfc_down.png');
 }

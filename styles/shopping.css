@@ -48,7 +48,7 @@ a.product-control {
 
     background: rgba(0, 0, 0, 0.1);
     background-size:100%;
-    background-image:url(check_out.png);
+    background-image:url('../images/check_out.png');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -61,7 +61,7 @@ a.product-control {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(check_out.png);
+    background-image:url('../images/check_out.png');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -73,7 +73,7 @@ a.product-control {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(beret.jpg);
+    background-image:url('../images/beret.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -86,7 +86,7 @@ a.product-control {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(check_out.png);
+    background-image:url('../images/check_out.png');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -326,7 +326,7 @@ button.shopping_cart {
     height:100%;
     width:33.333%;
     border:0px;
-    background-image: url('cart_up.png');
+    background-image: url('../images/cart_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -340,18 +340,18 @@ button.scan_nfc {
     height:100%;
     width:33.333%;
     border:0px;
-    background-image: url('nfc_up.png');
+    background-image: url('../images/nfc_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
 }
 
 button.shopping_cart:hover {
-    background-image: url('cart_down.png');
+    background-image: url('../images/cart_down.png');
 }
 
 button.scan_nfc:hover {
-    background-image: url('nfc_down.png');
+    background-image: url('../images/nfc_down.png');
 }
 
 button.add_product {
@@ -362,7 +362,7 @@ button.add_product {
     height:100%;
     width:33.33%;
     border:0px;
-    background-image: url('add_up.png');
+    background-image: url('../images/add_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -370,7 +370,7 @@ button.add_product {
 }
 
 button.add_product:hover {
-    background-image: url('add_down.png');
+    background-image: url('../images/add_down.png');
 }
 
 button.remove_product {
@@ -381,14 +381,14 @@ button.remove_product {
     height:100%;
     width:33.333%;
     border:0px;
-    background-image: url('remove_up.png');
+    background-image: url('../images/remove_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
 }
 
 button.remove_product:hover {
-    background-image: url('remove_down.png');
+    background-image: url('../images/remove_down.png');
 }
 
 button.empty_cart {
@@ -399,14 +399,14 @@ button.empty_cart {
     height:100%;
     width:50%;
     border:0px;
-    background-image: url('empty_cart_up.png');
+    background-image: url('../images/empty_cart_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
 }
 
 button.empty_cart:hover {
-    background-image: url('empty_cart_down.png');
+    background-image: url('../images/empty_cart_down.png');
 }
 
 button.empty_cart_hidden {
@@ -417,7 +417,7 @@ button.empty_cart_hidden {
     height:100%;
     width:50%;
     border:0px;
-    background-image: url('empty_cart_up.png');
+    background-image: url('../images/empty_cart_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -432,7 +432,7 @@ button.home {
     height:100%;
     width:100%;
     border:0px;
-    background-image: url('home_up.png');
+    background-image: url('../images/home_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -446,14 +446,14 @@ button.home-hidden {
     height:100%;
     width:100%;
     border:0px;
-    background-image: url('home_up.png');
+    background-image: url('../images/home_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
 }
 
 button.home:hover {
-    background-image: url('home_down.png');
+    background-image: url('../images/home_down.png');
 }
 
 button.check_out {
@@ -464,7 +464,7 @@ button.check_out {
     height:100%;
     width:50%;
     border:0px;
-    background-image: url('check_out_up.png');
+    background-image: url('../images/check_out_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -478,14 +478,14 @@ button.check_out_hidden {
     height:100%;
     width:50%;
     border:0px;
-    background-image: url('check_out_up.png');
+    background-image: url('../images/check_out_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
 }
 
 button.check_out:hover {
-    background-image: url('check_out_down.png');
+    background-image: url('../images/check_out_down.png');
 }
 
 
@@ -497,7 +497,7 @@ button.enter_shopping {
     height:60%;
     width:120px;
     border:0px;
-    background-image: url('enter_up.png');
+    background-image: url('../images/enter_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -505,7 +505,7 @@ button.enter_shopping {
 }
 
 button.enter_shopping:hover {
-    background-image: url('enter_down.png');
+    background-image: url('../images/enter_down.png');
 }
 
 
@@ -517,7 +517,7 @@ button.restart_shopping {
     height:55%;
     width:110px;
     border:0px;
-    background-image: url('restart_up.png');
+    background-image: url('../images/restart_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -532,7 +532,7 @@ button.restart_shopping_hidden {
     height:55%;
     width:110px;
     border:0px;
-    background-image: url('restart_up.png');
+    background-image: url('../images/restart_up.png');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.0);
     background-size:100% 100%;
@@ -540,7 +540,7 @@ button.restart_shopping_hidden {
 }
 
 button.restart_shopping:hover {
-    background-image: url('restart_down.png');
+    background-image: url('../images/restart_down.png');
 }
 
 
@@ -554,7 +554,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(mug1.jpg);
+    background-image:url('../images/mug1.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -566,7 +566,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(t-shirt-man.jpg);
+    background-image:url('../images/t-shirt-man.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -578,7 +578,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(scarf.jpg);
+    background-image:url('../images/scarf.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -590,7 +590,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(infospark-touch.png);
+    background-image:url('../images/infospark-touch.png');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -602,7 +602,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(infospark-lite.jpg);
+    background-image:url('../images/infospark-lite.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -614,7 +614,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(infospark-s1.png);
+    background-image:url('../images/infospark-s1.png');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -627,7 +627,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(xperia-active.jpg);
+    background-image:url('../images/xperia-active.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -640,7 +640,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(xperia-arc.jpg);
+    background-image:url('../images/xperia-arc.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
@@ -653,7 +653,7 @@ button.restart_shopping:hover {
 
     background: rgba(0, 0, 0, 0.0);
     background-size:100%;
-    background-image:url(xperia-pro.jpg);
+    background-image:url('../images/xperia-pro.jpg');
     background-repeat: no-repeat;
     top:-50%;
     left:-50%;
