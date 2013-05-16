@@ -332,8 +332,26 @@ button.shopping_cart {
     background-size:100% 100%;
 }
 
+button.scan_nfc {
+    position:absolute;
+    display: block;
+    top:0%;
+    left:30%;
+    height:100%;
+    width:33.333%;
+    border:0px;
+    background-image: url('nfc_up.png');
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.0);
+    background-size:100% 100%;
+}
+
 button.shopping_cart:hover {
     background-image: url('cart_down.png');
+}
+
+button.scan_nfc:hover {
+    background-image: url('nfc_down.png');
 }
 
 button.add_product {
